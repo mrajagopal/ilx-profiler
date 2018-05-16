@@ -1,0 +1,27 @@
+{
+  "name": "ilx-profiler",
+  "version": "0.0.1",
+  "description": "F5 iRulesLX profiling using the v8-profiler module",
+  "main": "profiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrajagopal/ilx-profiler.git"
+  },
+  "keywords": [
+    "ilx",
+    "profiler"
+  ],
+  "author": "Madhu Rajagopal <rajagopal.madhu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrajagopal/ilx-profiler/issues"
+  },
+  "homepage": "https://github.com/mrajagopal/ilx-profiler#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "process": "^0.11.10"
+  }
+}
