@@ -24,9 +24,9 @@ class Profiler {
     stop(req, res) {
         var cpuprofile = profiler.stopProfiling(this.profileTag);
         cpuprofile.export(function(error, result) {
-          fs.writeFile('/tmp/'+this.profileTag+'.'+process.pid+'.cpuprofile', result, this.doneWrite);
+          fs.writeFile('/tmp/'+this+'.'+process.pid+'.cpuprofile', result, this.doneWrite);
           cpuprofile.delete();
-        });
+        }.bind(this.profileTag));
     res.reply('Profiling stopped for ' + this.profileTag + "\n");
     }
 }
