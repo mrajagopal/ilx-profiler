@@ -1,6 +1,6 @@
 {
   "name": "ilx-profiler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "F5 iRulesLX profiling using the v8-profiler module",
   "main": "profiler.js",
   "scripts": {
