@@ -20,5 +20,7 @@
     "url": "https://github.com/mrajagopal/ilx-profiler/issues"
   },
   "homepage": "https://github.com/mrajagopal/ilx-profiler#readme",
-  "dependencies": {}
+  "dependencies": {
+    "v8-profiler": "^5.7.0"
+  }
 }
